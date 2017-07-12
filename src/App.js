@@ -48,7 +48,6 @@ class App extends Component {
         <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/5Z8EDau8uNcP1E8JvmfkZe")} />
         <Firefly onClick={()=>this.clickBug("https://open.spotify.com/embed/track/4rpNjW4HXxh8o5UwS7UoWL")} />
         <MusicPlayer player={this.state.bugSong}/>
-
       </div>
     );
   }
